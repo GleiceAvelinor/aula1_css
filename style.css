@@ -1,0 +1,96 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+  background-color: #fff
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  color: rgb(245, 245, 248);
+  background-color: rgb(143, 5, 120);
+
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(169, 26, 235);
+  height: 20vh;
+  width: 100%
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(143, 5, 120);
+  margin: 5%;
+  text-decoration-line: underline;
+  text-decoration-thickness: 5px;
+  line-height: 1.5;
+  text-underline-position: below;
+  text-underline-offset: 15px;
+}
+
+p {
+  display: flex;
+  justify-content: baseline;
+  text-align: center;
+  padding: 4%;
+  margin-right: 10px;
+  text-align: justify;
+}
+
+.team-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+
+.member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.circulo {
+  background-color: rgb(169, 26, 235);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10%;
+  margin-left: 10px;
+}
+
+
+.team {
+  color: #b709ce;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+
+.role {
+  color: #db0f97;
+  font-size: 0.9em;
+}
+
+footer {
+  background-color: rgb(143, 5, 120);
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 0.9em;
+  margin-top: 20px;
+}
